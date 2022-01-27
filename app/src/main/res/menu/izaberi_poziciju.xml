@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sve pozicije" />
+    <item android:title="GK" />
+    <item android:title="DR" />
+    <item android:title="DC" />
+    <item android:title="DL" />
+    <item android:title="DRC" />
+    <item android:title="DRL" />
+    <item android:title="DLC" />
+    <item android:title="MR" />
+    <item android:title="MC" />
+    <item android:title="ML" />
+    <item android:title="MRC" ></item>
+    <item android:title="MRL" />
+    <item android:title="MLC" />
+    <item android:title="FR" />
+    <item android:title="FC" />
+    <item android:title="FL" />
+    <item android:title="FRC" />
+    <item android:title="FRL" />
+    <item android:title="FLC" />
+</menu>

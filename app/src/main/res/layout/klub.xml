@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/klubLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_pozicijaTabela"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_klubTabela"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Club"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_pozicijaTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_pozicijaTabela" />
+
+    <TextView
+        android:id="@+id/tv_odigraniTabela"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_klubTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_klubTabela" />
+
+    <TextView
+        android:id="@+id/tv_pobedeTabela"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_odigraniTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_odigraniTabela" />
+
+    <TextView
+        android:id="@+id/tv_nereseneTabela"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_pobedeTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_pobedeTabela" />
+
+    <TextView
+        android:id="@+id/tv_poraziTabela"
+        android:layout_width="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_nereseneTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_nereseneTabela" />
+
+    <TextView
+        android:id="@+id/tv_datiTabela"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_poraziTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_poraziTabela" />
+
+    <TextView
+        android:id="@+id/tv_primljeniTabela"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_datiTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_datiTabela" />
+
+    <TextView
+        android:id="@+id/tv_golRazlikaTabela"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_primljeniTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_primljeniTabela" />
+
+    <TextView
+        android:id="@+id/tv_poeniTabela"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_golRazlikaTabela"
+        app:layout_constraintTop_toTopOf="@+id/tv_golRazlikaTabela" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@id/tv_pozicijaTabela"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pozicijaTabela" />
+</androidx.constraintlayout.widget.ConstraintLayout>

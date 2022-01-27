@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetStart="@+id/start"
+        motion:constraintSetEnd="@+id/start1"
+        motion:autoTransition="animateToEnd"
+        motion:duration="1000" />
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/iv_lopta"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="16dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/start1">
+        <Constraint
+            android:id="@+id/iv_lopta"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="16dp" />
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetEnd="@+id/end2"
+        motion:constraintSetStart="@id/start1"
+        motion:autoTransition="animateToEnd"
+        motion:duration="1000">
+       <KeyFrameSet>
+           <KeyPosition
+               motion:motionTarget="@+id/iv_lopta"
+               motion:framePosition="50"
+               motion:keyPositionType="parentRelative"
+               motion:percentY=".01"
+               motion:percentX=".1" />
+           <KeyAttribute
+               motion:motionTarget="@+id/iv_lopta"
+               motion:framePosition="0"
+               android:rotation="360" />
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/end2">
+        <Constraint
+            android:id="@+id/iv_lopta"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetStart="@+id/end2"
+        motion:constraintSetEnd="@+id/end"
+        motion:autoTransition="animateToEnd"
+        motion:duration="2000" />
+
+    <ConstraintSet android:id="@+id/end" >
+        <Constraint
+            android:id="@+id/iv_lopta"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+
+
+</MotionScene>

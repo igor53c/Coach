@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="League 1" />
+    <item android:title="League 2" />
+    <item android:title="League 3" />
+    <item android:title="League 4" />
+    <item android:title="League 5" />
+    <item android:title="League 6" />
+    <item android:title="League 7" />
+</menu>

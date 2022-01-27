@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Pocetna"
+        android:icon="@drawable/ic_pocetna"
+        android:id="@+id/item_pocetna"/>
+    <item
+        android:title="Trening"
+        android:icon="@drawable/ic_igraci"
+        android:id="@+id/item_trening"/>
+    <item
+        android:title="Taktika"
+        android:icon="@drawable/ic_taktika"
+        android:id="@+id/item_taktika"/>
+    <item
+        android:title="Tabela"
+        android:icon="@drawable/ic_tabela"
+        android:id="@+id/item_tabela"/>
+    <item
+        android:title="Raspored"
+        android:icon="@drawable/ic_raspored"
+        android:id="@+id/item_raspored"/>
+
+</menu>
