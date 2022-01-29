@@ -105,10 +105,10 @@ public class ObjasnjenjeActivity extends AppCompatActivity {
                 Klub mojKlub = objasnjenjeViewModel.uzmiKlub(klub);
 
                 String text = liga + "\n\n"
-                        + "Sezona je zavrsena!" + "\n\n\n"
+                        + "The season is over!" + "\n\n\n"
                         + mojKlub.getIme() + "\n"
-                        + "je osvojio\n"
-                        + mojKlub.getPozicija() + "-o mesto!";
+                        + "won\n"
+                        + mojKlub.getPozicija() + "th place!";
 
                 tv_objasnjenje.setText(text);
 
@@ -118,7 +118,7 @@ public class ObjasnjenjeActivity extends AppCompatActivity {
 
         if ((numberWeek > 24 && numberWeek < 30) || (numberWeek >= 1 && numberWeek < 4)) {
 
-            tv_objasnjenje.setText("Razmena igraca!");
+            tv_objasnjenje.setText("Player transfer!");
 
         }
 
@@ -126,7 +126,7 @@ public class ObjasnjenjeActivity extends AppCompatActivity {
 
             new Thread(() -> {
 
-                String text = liga + "\n\n" + "Izasao je raspored za novu sezonu!";
+                String text = liga + "\n\n" + "The schedule for the new season has come out!";
 
                 Mec mec = objasnjenjeViewModel.uzmiMecKlubaIzNarednogKola(kolo, klub);
 
@@ -135,11 +135,11 @@ public class ObjasnjenjeActivity extends AppCompatActivity {
 
                 if(domacin.getIme().matches(klub)) {
                     text = text + "\n\n\n" + klub + "\n\n"
-                            + "u prvom kolu na svom terenu igra protiv ekipe\n\n"
+                            + "plays in the first round at home against\n\n"
                             + gost.getIme();
                 } else {
                     text = text + "\n\n\n" + klub + "\n\n"
-                            + "u prvom kolu u gostima igra protiv ekipe\n\n"
+                            + "plays in the first round away against\n\n"
                             + domacin.getIme();
                 }
 
@@ -159,7 +159,7 @@ public class ObjasnjenjeActivity extends AppCompatActivity {
                 Klub gost = objasnjenjeViewModel.uzmiKlub(mec.getGost());
 
                 String text = liga + "\n\n"
-                        + "Kolo: " + kolo + "\n\n\n"
+                        + "Round: " + kolo + "\n\n\n"
                         + domacin.getIme() + "\n"
                         + domacin.getPozicija() + "th" + "\n\n"
                         + "VS" + "\n\n"

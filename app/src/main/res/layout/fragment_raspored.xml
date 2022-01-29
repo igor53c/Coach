@@ -42,7 +42,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="8sp"
                 android:layout_weight="1"
-                android:text="pre" />
+                android:text="before" />
 
             <TextView
                 android:id="@+id/tv_brojKolaRaspored"
@@ -50,7 +50,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Kolo"
+                android:text="Round"
                 android:textStyle="bold" />
 
             <Button
@@ -59,7 +59,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginEnd="8sp"
                 android:layout_weight="1"
-                android:text="posle" />
+                android:text="after" />
         </LinearLayout>
 
         <LinearLayout

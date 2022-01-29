@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_biranje_kluba.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_glavni.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/activity_objasnjenje.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/activity_pred_mec.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/activity_transfer.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/activity_uvod.xml" value="0.27944280287040946" />
+        <entry key="app/src/main/res/layout/activity_zamena_igraca.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_istorija.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_pocetna.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_raspored.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_tabela.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_taktika.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/fragment_trening.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/istorija.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/klub.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/mec.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/popup_main.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/layout/trening.xml" value="0.2830269345874305" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1464318813716404" />
+        <entry key="app/src/main/res/menu/izaberi_ligu.xml" value="0.1464318813716404" />
+        <entry key="app/src/main/res/menu/izaberi_poziciju.xml" value="0.1464318813716404" />
+        <entry key="app/src/main/res/menu/liga.xml" value="0.1464318813716404" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
     <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
@@ -43,7 +72,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

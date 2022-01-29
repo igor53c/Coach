@@ -12,7 +12,6 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -80,7 +79,6 @@ public class TaktikaFragment extends Fragment implements View.OnClickListener {
                 String text = new DecimalFormat("0.0").format(igraci.get(i).getRejting())
                         + "\n" + igraci.get(i).getPozicija() + "\n" + igraci.get(i).getGodine();
                 sviIgraci.getInformacije().get(i).setText(text);
-                Log.d("posao", "igrac: " + igraci.get(i).getPozicija());
             }
 
             Taktika taktika = podaciTaktika.uzmiTaktiku(taktikaBroj);
@@ -698,9 +696,7 @@ public class TaktikaFragment extends Fragment implements View.OnClickListener {
         parentLayout.addView(imageFilterView, 0);
 
         set.clone(parentLayout);
-        // connect start and end point of views, in this case top of child to top of parent.
         set.connect(imageFilterView.getId(), ConstraintSet.TOP, parentLayout.getId(), ConstraintSet.TOP, 0);
-        // ... similarly add other constraints
         parentLayout.addView(textView, 1);
 
         set.clone(parentLayout);

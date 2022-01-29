@@ -67,7 +67,7 @@ public class RasporedFragment extends Fragment implements View.OnClickListener {
             prikazanoKolo = kolo - 1;
         }
 
-        tv_brojKolaRaspored.setText("Kolo " + prikazanoKolo);
+        tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
 
         loadMecList(prikazanoKolo);
 
@@ -140,7 +140,7 @@ public class RasporedFragment extends Fragment implements View.OnClickListener {
 
                     new Thread(() -> {
 
-                        tv_brojKolaRaspored.setText("Kolo " + prikazanoKolo);
+                        tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
 
                         rasporedViewModel.uzmiMeceveIzJednogKola(prikazanoKolo);
 
@@ -155,7 +155,7 @@ public class RasporedFragment extends Fragment implements View.OnClickListener {
 
                     new Thread(() -> {
 
-                        tv_brojKolaRaspored.setText("Kolo " + prikazanoKolo);
+                        tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
 
                         rasporedViewModel.uzmiMeceveIzJednogKola(prikazanoKolo);
 

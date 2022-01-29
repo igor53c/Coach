@@ -285,7 +285,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="4sp"
                     android:gravity="center"
-                    android:text="Izaberi igraca za transfer!"
+                    android:text="Choose a player to transfer! "
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -306,7 +306,7 @@
                     android:layout_marginStart="8sp"
                     android:layout_marginEnd="8sp"
                     android:layout_weight="1"
-                    android:text="Pozicija novog igraca:" />
+                    android:text="New player position: " />
 
             </LinearLayout>
 

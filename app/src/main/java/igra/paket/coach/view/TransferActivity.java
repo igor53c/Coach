@@ -546,9 +546,7 @@ public class TransferActivity extends AppCompatActivity implements View.OnClickL
         parentLayout.addView(imageFilterView, 0);
 
         set.clone(parentLayout);
-        // connect start and end point of views, in this case top of child to top of parent.
         set.connect(imageFilterView.getId(), ConstraintSet.TOP, parentLayout.getId(), ConstraintSet.TOP, 0);
-        // ... similarly add other constraints
         parentLayout.addView(textView, 1);
 
         set.clone(parentLayout);
