@@ -8,6 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
         android:theme="@style/Theme.Coach">
         <activity android:name=".view.GlavniActivity" />
         <activity android:name=".view.BiranjeKlubaActivity" />
