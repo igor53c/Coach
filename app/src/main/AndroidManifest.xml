@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="igra.paket.coach">
+    package="igra.ipcoding.coach">
 
     <application
         android:allowBackup="true"
@@ -11,13 +11,27 @@
         android:largeHeap="true"
         android:hardwareAccelerated="false"
         android:theme="@style/Theme.Coach">
-        <activity android:name=".view.GlavniActivity" />
-        <activity android:name=".view.BiranjeKlubaActivity" />
-        <activity android:name=".view.ObjasnjenjeActivity" />
-        <activity android:name=".view.PredMecActivity" />
-        <activity android:name=".view.ZamenaIgracaActivity" />
-        <activity android:name=".view.TransferActivity" />
-        <activity android:name=".view.UvodActivity"
+        <activity android:name="igra.ipcoding.coach.view.GlavniActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.BiranjeKlubaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.ObjasnjenjeActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.PredMecActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.ZamenaIgracaActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.TransferActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="igra.ipcoding.coach.view.UvodActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,5 +40,7 @@
             </intent-filter>
         </activity>
     </application>
+
+
 
 </manifest>

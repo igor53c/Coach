@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "igra.paket.coach"
+        applicationId "igra.ipcoding.coach"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 5
