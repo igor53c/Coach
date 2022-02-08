@@ -138,9 +138,9 @@ public class RasporedFragment extends Fragment implements View.OnClickListener {
                 if(prikazanoKolo > 1) {
                     prikazanoKolo--;
 
-                    new Thread(() -> {
+                    tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
 
-                        tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
+                    new Thread(() -> {
 
                         rasporedViewModel.uzmiMeceveIzJednogKola(prikazanoKolo);
 
@@ -153,9 +153,9 @@ public class RasporedFragment extends Fragment implements View.OnClickListener {
                 if(prikazanoKolo < 38) {
                     prikazanoKolo++;
 
-                    new Thread(() -> {
+                    tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
 
-                        tv_brojKolaRaspored.setText("Round " + prikazanoKolo);
+                    new Thread(() -> {
 
                         rasporedViewModel.uzmiMeceveIzJednogKola(prikazanoKolo);
 
