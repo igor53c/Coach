@@ -32,7 +32,8 @@
         <activity android:name="igra.ipcoding.coach.view.UvodActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Coach">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
