@@ -519,7 +519,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 1");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                     }
@@ -545,7 +545,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 2");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                         if(i < 4) {
@@ -593,7 +593,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 3");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                         if(i < 4) {
@@ -641,7 +641,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 4");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                         if(i < 4) {
@@ -689,7 +689,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 5");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                         if(i < 4) {
@@ -737,7 +737,7 @@ public class PocetnaFragment extends Fragment implements View.OnClickListener {
                             trenutniKlub.setBodovi(0);
                             mainViewModel.updateKlub(trenutniKlub);
                             buduciKlub.setLiga("League 6");
-                            buduciKlub.setPozicija(i - 16 + 1);
+                            buduciKlub.setPozicija(i + 1);
                             mainViewModel.updateKlub(buduciKlub);
                         }
                         if(i < 4) {
